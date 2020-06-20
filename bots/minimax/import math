@@ -1,0 +1,6 @@
+import math
+
+get_hourly_wage = raw_input('Enter the hourly wage: ')
+get_numer_of_hours_worked = math.ceil(raw_input('Enter the numbers of hours worked: '))
+calculate_total_cost = get_hourly_wage * get_number_of_hours_worked + 16
+print 'the total cost of this repair is: {} euro'.format(calculate_total_cost)
